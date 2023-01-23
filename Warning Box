@@ -1,0 +1,23 @@
+.user-css .box {
+      padding: 10px;
+      border-radius: 15px 15px 15px 15px;
+      box-shadow: 2px 2px 2px #04050475 inset, 
+            5px 5px 2px #04050475;
+      padding-top:
+}
+
+/*THE ACTUAL BOX COLOR*/
+  .box-fordave {
+      border: 2px groove #900000;
+      background: #904949;
+   }
+   
+   
+   
+   /*VARIABLE*/
+   [row][col3][color: silver][section:fa-solid fa-skull-crossbones fa-2x] [/section][/color] [/col3] [col3][center]WARNING[/center][/col3][col3][right] [color: silver][section:fa-solid fa-skull-crossbones fa-2x] [/section][/color][/right][/col3][/row]
+
+
+/*BBCODE*/
+[container: col-md-4][container: box box-fordave][p][var:warning-mandomc] [/p]
+[sub][/sub][/container][/container]
