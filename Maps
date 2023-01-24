@@ -1,0 +1,247 @@
+.user-css.page,
+  .user-css-extended .page,
+  .user-css-map-sidebar {
+      background: var(--ArticleBackground);
+      background-size: auto;
+      background-repeat: repeat;
+      background-attachment: scroll;
+  }
+  
+  .user-css-map-sidebar .card {
+      background: var(--PanelDefault);
+  }
+  
+  .tooltipster-content {
+      background: var(--ArticleBackground) !important;
+      background-size: auto;
+      background-repeat: repeat;
+      background-attachment: scroll;
+      color: var(--TextColor);
+  }
+  
+  /* Text */
+  
+  .user-css,
+  .user-css-extended,
+  .user-css-map-sidebar,
+  .user-css-presentation :is(p, .paragraph-indent, b, a, .comment-box-signature),
+  .user-css-map-sidebar :is(p, .paragraph-indent, b, a, .comment-box-signature),
+  .user-css .article-content,
+  .tooltipster-content {
+      color: var(--TextColor);
+      font-size: 18px
+  }
+  
+  .user-css a,
+  .user-css-extended a,
+  .user-css-presentation a,
+  .tooltipster-content a, 
+  .user-css-map-sidebar a {
+      color: var(--LinkColor) !important;
+      font-size: 18px
+  }
+  
+   .map-context-user-css .marker-content a {
+      color: var(--LinkColor) !important;
+}
+
+  .user-css em,
+  .user-css-extended em,
+  .user-css-presentation em,
+  .tooltipster-content em, 
+  .user-css-map-sidebar em {
+      font-style: italic;
+      font-family: var(--f5);
+      font-size: var(--fs1);
+      color: var(--ItallicColor);
+  }
+  
+  /* Headers */
+  .user-css h1,
+  .user-css-extended h1,
+  .user-css-presentation h1,
+  .tooltipster-content h1, 
+  .user-css-map-sidebar h1 {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 64px;
+      margin-top: 40px;
+      background-image: linear-gradient(
+          to right,
+          #ce9d51 0%, 
+          #b27d19 10%,
+          #edb45c 30%, 
+          #f5c262 40%,
+          #dec595 50%,
+          #efd653 70%,
+          #e0ba53 80%,
+          #462523 100%
+      );
+      color: transparent;
+      -webkit-background-clip:text;
+      font-family: VollkornSC;
+  }
+  
+  .user-css h2,
+  .user-css-extended h2,
+  .user-css-presentation h2,
+  .tooltipster-content h2, 
+  .user-css-map-sidebar h2 {
+      font-size: 38px;
+      line-height: 38px;
+      border-bottom: 3px solid;
+      border-image: linear-gradient(94deg,
+          #deb26d 4%, 
+          #f6e27a 18%,
+          #d9d6a6 26%,
+          #f6e27a 42%,
+          #cb9b51 58%,
+          #edb067 100%
+      ) 1;
+  }
+  
+  .user-css h3,
+  .user-css-extended h3,
+  .user-css-presentation h3,
+  .tooltipster-content h3, 
+  .user-css-map-sidebar h3 {
+      font-size: 34px;
+  }
+  
+  .user-css h4,
+  .user-css-extended h4,
+  .user-css-presentation h4,
+  .tooltipster-content h4, 
+  .user-css-map-sidebar h4 {
+      font-size: 32px;
+      line-height: 32px;
+  }
+
+  
+  .user-css h5,
+  .user-css-extended h5,
+  .user-css-presentation h5,
+  .tooltipster-content h5, 
+  .user-css-map-sidebar h5
+  .map-context-user-css .marker-content h5 {
+      font-size: 26px;
+      line-height: 28px;
+  }
+  
+  .user-css :is(h2, h3, h4, h5),
+  .user-css-extended :is(h2, h3, h4, h5),
+  .user-css-presentation :is(h2, h3, h4, h5),
+  .tooltipster-content :is(h2, h3, h4, h5), 
+  .user-css-map-sidebar :is(h2, h3, h4, h5),
+  .user-css .panel-default :is(h2, h3, h4, h5), 
+ .map-context-user-css .marker-content h5 {
+      margin-top: .25em;
+      margin-bottom: 8px;
+      background-image: linear-gradient(
+          to right,
+          #deb26d 4%, 
+          #f6e27a 18%,
+          #d9d6a6 26%,
+          #f6e27a 42%,
+          #cb9b51 58%,
+          #edb067 100%
+      );
+      color: transparent !Important;
+      -webkit-background-clip:text;
+      font-family: VollkornSC;
+  }
+  
+  .user-css :is(h2 a, h3 a, h4 a, h5 a),
+  .user-css-extended :is(h2 a, h3 a, h4 a, h5 a),
+  .user-css-presentation :is(h2 a, h3 a, h4 a, h5 a),
+  .tooltipster-content :is(h2 a, h3 a, h4 a, h5 a), 
+  .user-css-map-sidebar :is(h2 a, h3 a, h4 a, h5 a),
+  .user-css .panel-default :is(h2 a, h3 a, h4 a, h5 a){
+      text-shadow: 
+          1px 0px 1px var(--Darkness),
+          0px 1px 1px var(--Darkness),
+          -1px 0px 1px var(--Darkness),
+          0px -1px 1px var(--Darkness);
+  }
+
+  /* Map Box */
+  .user-css .map-box {
+      background: var(--PanelDefault);
+      border: 6px double rgba(0, 0, 0, 0.6);
+  }
+  
+  /*Map Popups*/
+ .map-context-user-css .leaflet-popup .leaflet-popup-content-wrapper, .map-context-user-css .leaflet-popup .leaflet-popup-tip,  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #151119;
+    color: silver;
+}
+
+.user-css .presentation-interface-map #logo{
+     background: var(--CEIE-dark);
+     border: 3px solid var(--CEIE-dark);
+     color: silver
+}
+  
+  
+  /* Aloud */
+  
+  :is(.user-css, .user-css-extended, .tooltipster-content, .user-css-map-sidebar, .map-context-user-css) .aloud {
+      color: silver;
+      padding: 12px;
+      background: var(--Aloud);
+      border: 1px solid black;
+      border-left: 15px solid black;
+      border-radius: 15px 15px 15px 15px
+  }
+  
+  
+  /* Quote */
+  .user-css-presentation blockquote,
+  .tooltipster-content blockquote, .user-css-map-sidebar blockquote, .map-context-user-css  blockquote{
+      margin-top: 20px;
+      background: var(--Blockquote);
+      color: var(--TextColor);
+      font-size: var(--fs1);
+      font-family: var(--f5);
+      border: 0;
+      border: 6px double rgba(0, 0, 0, 0.6);
+      border-radius: 0;
+      box-shadow: none;
+  }
+
+.user-css-presentation blockquote .author, .tooltipster-content blockquote .author, .user-css-map-sidebar blockquote .author, .map-context-user-css  blockquote
+ .author {
+    display: block;
+    font-size: .8em;
+    font-style: italic;
+    text-align: right;
+    color: silver;
+}
+  
+  
+  /* Buttons */
+  .user-css :is(.btn-primary, .btn-danger, .btn-info, .btn-success),
+  .user-css-extended :is(.btn-primary, .btn-danger, .btn-info, .btn-success),
+  .tooltipster-content :is(.btn-primary, .btn-danger, .btn-info, .btn-success),
+  #world-editor-bar :is(.btn-primary, .btn-danger, .btn-info, .btn-success),
+  .user-css-map-sidebar :is(.btn-primary, .btn-danger, .btn-info, .btn-success) {
+      background: var(--PanelDefault);
+      font-size: 16px;
+      padding: 4px 8px 4px 8px;
+      border-radius: 8px;
+      background: var(--btn) !important;
+      border: 2px solid var(--Purple) !important;
+      box-shadow: var(--Shadow);
+      transition: all 0.3s;
+      margin: 3px;
+  }
+  
+  .user-css :is(.btn-primary:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover),
+  .user-css-extended :is(.btn-primary:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover),
+  .tooltipster-content :is(.btn-primary:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover),
+  #world-editor-bar :is(.btn-primary:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover),
+  .user-css-map-sidebar :is(.btn-primary:hover, .btn-danger:hover, .btn-info:hover, .btn-success:hover) {
+      filter: brightness(0.7);
+      box-shadow: var(--Shadow2);
+  }
+  
